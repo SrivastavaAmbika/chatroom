@@ -1,0 +1,20 @@
+.messagebox{
+    background-color: rgb(201, 192, 192);
+    width: 50%;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    clear: both;
+    font-family: 'Acme', sans-serif;
+}
+.right{
+    background-color: rgb(233, 236, 22);
+    float: right;
+    color: white;
+}
+.left{
+    background-color: rgb(14, 163, 168);
+    float: left;
+    color: white;
+}

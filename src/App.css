@@ -1,38 +1,96 @@
-.App {
-  text-align: center;
+body{
+    margin: 0;
+    padding: 0px;
+    
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+    box-sizing: border-box;
 }
+@media(max-aspect-ratio:7/10){
+    .joinpage{
+       
+      
+        display: flex;
+        justify-content: center;
+        align-items: flex-start !important;
+    }
+    .joincontainer{
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+        margin-top: 30vw !important;
+        width: 100% !important;
+        }
+        .joincontainer >img{
+           
+            
+            
+            width: 30vm !important;
+           
+        }
+        .joincontainer > h1{
+           color: white;
+           font-size: 6vw !important;
+           width: 65vw !important;
+           font-family: 'Acme', sans-serif;
+           border-bottom: 0.6vw solid white !important;
+           padding: 3vw !important;
+        }
+        #joininput{
+            width: 65vw !important;
+            padding: 4vw !important;
+            
+        font-size: 5vw !important;
+        margin:5vw !important;
+        }
+        .joinbtn{
+            width: 65vw !important  ;
+            padding: 4vw !important;
+        
+        font-size: 5vw !important;
+        }
+        .chatcontainer{
+            background-color: white;
+            height: 100% !important;
+            width: 100% !important;
+        }
+        .header{
+            
+            height: 10% !important;
+            
+            
+        }
+        .header>h2{
+        
+            margin: 8vw !important;
+            font-size: 5vw !important;
+        }
+        .header img{
+            margin: 6vw !important;
+        transform: scale(2) !important;
+        }
+        .header>img:hover{
+            transform: scale(1.5) !important;
+        }
+        .chatbox{
+            height: 80% !important;
+        }
+        .chatinput{
+            height: 10% !important;
+        }
+        #inputchat{
+            
+            padding: 4vw !important;
+            font-size: 4vw !important;
+            
+        
+        }
+        .messagebox{
+   
+       
+            padding: 3vw !important;
+            margin: 3vw !important;
+            border-radius: 1.5vw !important;
+            font-size: 3.7vw !important;
+        }
+    
+        
 }

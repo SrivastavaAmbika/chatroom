@@ -1,0 +1,60 @@
+.joinpage{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(31, 29, 29); 
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.joincontainer{
+
+
+width: 50%;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.joincontainer >img{
+   
+    
+    
+    width: 10vmax;
+   
+}
+.joincontainer > h1{
+    border-bottom: 0.2vmax solid white;
+    padding: 1vmax;
+    box-sizing: border-box;
+   color: white;
+   text-align: center;
+   font-family: 'Acme', sans-serif;
+}
+#joininput{
+    width: 30vmax;
+    padding: 1.5vmax;
+    border: none;
+    font-size: 25px;
+    outline: none;
+    font-size: 1.2vmax;
+    box-sizing: border-box;
+    transition: all 0.3s;
+   cursor: pointer;
+}
+.joinbtn{
+    width: 30vmax;
+    padding: 20px;
+    border: none;
+    font-size: 25px;
+    outline: none;
+    margin: 5px; 
+    font-family: 'Acme', sans-serif;
+    box-sizing: border-box;
+    background-color: rgb(71, 197, 255);
+    transition: all 0.5s;
+    color: white;
+    cursor: pointer;
+}
+.joinbtn:hover{
+    background-color: rgb(42, 164, 221);
+}
