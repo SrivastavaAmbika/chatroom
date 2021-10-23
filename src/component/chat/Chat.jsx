@@ -8,7 +8,7 @@ import ReactScrollToBottom from 'react-scroll-to-bottom';
 import icon from '../../image/close.png';
 
 let socket;
- const ENDPOINT = 'http://localhost:4500/';
+ const ENDPOINT = 'https://cchat-room.herokuapp.com/';
 
 
 
